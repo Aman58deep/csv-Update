@@ -1,0 +1,61 @@
+/* CSS for Edit Butterfly Sketch page */
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+.edit-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #1dbf73;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #1dbf73;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    color: #fff;
+    background-color: #1dbf73;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
